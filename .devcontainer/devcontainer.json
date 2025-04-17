@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "build": "yarn install && yarn build",
+    "test": "yarn test"
+  }
+}
