@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc/packages/datadog"
+  },
+  "include": ["src/**/*.test.ts", "vitest.config.ts"]
+}
