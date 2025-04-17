@@ -1946,6 +1946,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@hono/datadog@workspace:packages/datadog":
+  version: 0.0.0-use.local
+  resolution: "@hono/datadog@workspace:packages/datadog"
+  dependencies:
+    "@arethetypeswrong/cli": "npm:^0.17.4"
+    publint: "npm:^0.3.9"
+    tsup: "npm:^8.4.0"
+    typescript: "npm:^5.8.2"
+    vitest: "npm:^3.0.8"
+  peerDependencies:
+    dd-trace: ^1.0.0
+    hono: ">=3.9.0"
+  languageName: unknown
+  linkType: soft
+
 "@hono/effect-validator@workspace:packages/effect-validator":
   version: 0.0.0-use.local
   resolution: "@hono/effect-validator@workspace:packages/effect-validator"
