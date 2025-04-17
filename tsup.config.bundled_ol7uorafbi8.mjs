@@ -1,0 +1,14 @@
+// ../../tsup.config.ts
+import { defineConfig } from "tsup";
+var tsup_config_default = defineConfig((overrideOptions) => ({
+  ...overrideOptions,
+  clean: true,
+  dts: true,
+  format: ["cjs", "esm"],
+  outDir: "dist",
+  tsconfig: "tsconfig.tsup.json"
+}));
+export {
+  tsup_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsiLi4vLi4vdHN1cC5jb25maWcudHMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9faW5qZWN0ZWRfZmlsZW5hbWVfXyA9IFwiL3dvcmtzcGFjZXMvbWlkZGxld2FyZS90c3VwLmNvbmZpZy50c1wiO2NvbnN0IF9faW5qZWN0ZWRfZGlybmFtZV9fID0gXCIvd29ya3NwYWNlcy9taWRkbGV3YXJlXCI7Y29uc3QgX19pbmplY3RlZF9pbXBvcnRfbWV0YV91cmxfXyA9IFwiZmlsZTovLy93b3Jrc3BhY2VzL21pZGRsZXdhcmUvdHN1cC5jb25maWcudHNcIjtpbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tICd0c3VwJ1xuXG5leHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoKG92ZXJyaWRlT3B0aW9ucykgPT4gKHtcbiAgLi4ub3ZlcnJpZGVPcHRpb25zLFxuICBjbGVhbjogdHJ1ZSxcbiAgZHRzOiB0cnVlLFxuICBmb3JtYXQ6IFsnY2pzJywgJ2VzbSddLFxuICBvdXREaXI6ICdkaXN0JyxcbiAgdHNjb25maWc6ICd0c2NvbmZpZy50c3VwLmpzb24nLFxufSkpXG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQWdOLFNBQVMsb0JBQW9CO0FBRTdPLElBQU8sc0JBQVEsYUFBYSxDQUFDLHFCQUFxQjtBQUFBLEVBQ2hELEdBQUc7QUFBQSxFQUNILE9BQU87QUFBQSxFQUNQLEtBQUs7QUFBQSxFQUNMLFFBQVEsQ0FBQyxPQUFPLEtBQUs7QUFBQSxFQUNyQixRQUFRO0FBQUEsRUFDUixVQUFVO0FBQ1osRUFBRTsiLAogICJuYW1lcyI6IFtdCn0K
